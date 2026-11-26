@@ -151,3 +151,8 @@ uv.lock
 tmp/
 .idea
 /workshops
+
+# local training artifacts (checkpoints, run logs, cached probabilities)
+*.pt
+*.log
+*.npz
